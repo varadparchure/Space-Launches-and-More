@@ -1,0 +1,82 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+.main1{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #000000;
+    font-weight:bold;
+   background: url(a.jpg);
+     background-size: cover;
+     background-blend-mode:darken;
+    background-color: rgba(11, 13, 11, 0.69);
+    
+    color: rgba(244, 244, 244, 0.88);
+  background-attachment: fixed;
+    
+}
+    .whiteblock{
+
+padding-left: 150px;
+        
+}
+    
+.time{
+    padding-left: 400px;
+    text-align: left;
+    
+}
+    
+
+
+
+
+
+
+
+h1{
+    margin-bottom: 50px;
+    color: cadetblue;
+    
+}
+
+.log{
+    margin-left: -200px;
+    color:white;
+    font-size: 20px;
+    
+}
+
+.log1{
+     margin-left: -100px;
+    color:white;
+    
+}
+
+
+
+input[type=submit] {
+    width: 20em;  height: 2em;
+    color: white;
+ background: rgba(255, 0, 0, 0);
+}
+
+
+
+#addrec
+    {
+      
+      background-color: rgba(0, 0, 0, 0);
+      color: white; /* SET COLOR IN WHITE */
+    }
+
+    #addrec:hover
+    {
+      background-color: white;
+      color: black; /* SET COLOR IN BLACK */
+    }    
+

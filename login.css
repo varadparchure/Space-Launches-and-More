@@ -1,0 +1,276 @@
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+  font-family: Ubuntu-Regular;
+  src: url('../fonts/ubuntu/Ubuntu-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Ubuntu-Bold;
+  src: url('../fonts/ubuntu/Ubuntu-Bold.ttf'); 
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ RESTYLE TAG ]*/
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+    background-image:url(l.jpg);
+     background-size: cover;
+     background-blend-mode:darken;
+    background-color: rgba(11, 13, 11, 0.26)
+     
+}
+
+
+/*---------------------------------------------*/
+a {
+	font-family: Ubuntu-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+a:focus {
+	outline: none !important;
+}
+
+a:hover {
+	text-decoration: none;
+  color: #403866;
+}
+
+/*---------------------------------------------*/
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+}
+
+
+
+ul, li {
+	margin: 0px;
+	list-style-type: none;
+}
+
+
+/*---------------------------------------------*/
+input {
+	outline: none;
+	border: none;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+
+
+
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+
+
+
+
+.container-login100 {
+  width: 100%;  
+  min-height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;;
+}
+
+
+.wrap-login100 {
+  width: 390px;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  position: relative;
+}
+
+
+
+.login {
+  font-family:monospace;
+
+  font-size: 30px;
+  
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+
+
+/*------------------------------------------------------------------
+[ Input ]*/
+
+.wrap-input100 {
+  margin-top: 10px;
+  width: 100%;
+ height: 40px;
+    position: relative;
+  background-color: #ffffff;
+  border: 2px solid transparent;
+    
+border-color: rgba(41, 59, 59, 0.47);
+  border-radius: 3px;
+    
+    
+    
+}
+
+.usernametext{
+    text-align-last: center;
+    margin-top: 10px;
+    
+}
+
+.dobtext{
+    margin-left: 150px;
+          margin-top: 6px;
+}
+
+
+
+/*---------------------------------------------*/
+
+/*------------------------------------------------------------------
+[ Focus Input ]*/
+
+
+
+
+
+
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.container-login100-form-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.login100-form-btn {
+  font-family: Ubuntu-Bold;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+margin-top: 20px;    
+
+ 
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  height: 62px;
+  background-color: rgba(8, 25, 82, 0.81);
+  border-radius: 3px;
+
+}
+
+.login100-form-btn:hover {
+  background-color: #403866;
+}
+
+
+/*------------------------------------------------------------------
+[ Alert validate ]*/
+
+.validate-input {
+  position: relative;
+}
+
+
+
+.alert-validate::after {
+  content: "\f12a";
+  font-family: FontAwesome;
+  display: block;
+  position: absolute;
+  color: #c80000;
+  font-size: 18px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 18px;
+}
+
+.alert-validate:hover:before {
+  visibility: visible;
+  opacity: 1;
+}
+
+.login{
+    font-size: 40px;
+    color:rgba(255, 255, 255, 0.69) ;
+font-weight: bold;
+}
+
+.fitsenior{
+    font-family:monospace;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.89);
+    padding-top: 120px;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: rgba(42, 42, 42, 0.44)
+   
+ 
+}
+
+
+.notamember
+{
+    padding-top: 10px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.sign{
+    color: #f9fcff;
+    font-family:monospace;
+    font-size: 18px;
+}
+
+
